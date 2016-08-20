@@ -1,0 +1,19 @@
+{
+  "name": "quiz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "watchify index.js -p [ browserify-livereload --host 127.0.0.1 --port 1337 ] -o bundle.js -dv",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "regl": "^1.0.0"
+  },
+  "devDependencies": {
+    "browserify-livereload": "^1.0.8",
+    "watchify": "^3.7.0"
+  }
+}
